@@ -1,0 +1,142 @@
+body{
+    background-image: url('imagens/fundo03.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.folha{
+    width: 1300px;
+    height: 95vh;
+    border: 2px solid rgba(168, 168, 168, 0.842);
+    box-shadow: 10px 10px 10px 10px rgba(124, 123, 121, 0.158);
+    border-radius: 5px;
+    background-color: rgb(253, 253, 252);
+    text-align: center;
+    
+}
+.conteudo{
+    background-color: transparent;
+    display: grid;
+    align-self: center;
+    gap: 5rem;
+    row-gap: 0.9rem;
+    padding: 0;
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+    margin: 0px 25px;
+}
+.linha{
+    height: 5vh;
+    background-color: rgb(253, 253, 252);
+    border-bottom: 1.5px solid rgba(82, 79, 79, 0.404);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    width: 380px;
+    height: 5vh;
+    background-color: transparent;
+    border-bottom: 1.5px solid rgba(82, 79, 79, 0.404);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    margin: 20px 10px;
+    color: rgb(97, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.titulo_data{
+    width: 200px;
+    height: 5vh;
+    background-color: transparent;
+    border-bottom: 1.5px solid rgba(82, 79, 79, 0.404);
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    margin: 20px 10px;
+    color: rgb(97, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.titulo_data::placeholder{
+    font-size: 25px;
+    color: rgba(58, 57, 55, 0.486);
+    padding: 10px;
+    text-align: center;
+}
+.titulo::placeholder{
+    font-size: 25px;
+    color: rgba(58, 57, 55, 0.486);
+    padding: 10px;
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 255, 254);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgba(58, 57, 55, 0.486);
+    cursor: pointer;
+    margin-left: 15px;
+}
+button:hover{
+    background-color: rgba(163, 190, 138, 0.267);
+}
+.linha_input{
+    border: none;
+    margin: 15px;
+    width: 450px;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+}
+.fundo{
+    height: 50px;
+    width: 80px;
+    padding: 0px;
+}
+#fn01{
+    background-color: transparent;
+    background-image: url('imagens/fundo01.png');
+    background-size: 700px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+#fn02{
+    background-color: transparent;
+    background-image: url('imagens/fundo02.png');
+    background-size: 700px;
+    border-radius: 5px;
+}
+#fn03{
+    background-color: transparent;
+    background-image: url('imagens/fundo03.png');
+    background-size: 700px;
+    border-radius: 5px;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 15px;
+}
+.cabecalho input:focus{
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1.5px solid rgba(82, 79, 79, 0.404);
+}
+.conteudo input:focus{
+    background-color: transparent;
+    outline: none;
+}
